@@ -1,9 +1,4 @@
-# SWMM_SVE
-Code used in development of SWMM-SVE calibration. 
+# SWMM calibration to SVE model
 
-This repository contains:
-\itemize Inp_files
-2. SVE simulations  (.pickle file)
-3. SWMM input files (.inp files)
-4. Python functions
-5. Python notebooks
+This repository contains files used in the development of the results presented in Sytsma et al., 2021. This includes: (1) SWMM  .inp files; (2) SVE model output .pickle files; and (3) Jupyter notebooks and functions for PySWMM simulations, data analysis and visualization.
+
