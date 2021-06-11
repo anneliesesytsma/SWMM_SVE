@@ -68,14 +68,14 @@ def concat(core,frames,sve_core):
 
     return core,swmm
 
-def error_grid(error_metric):
+def error_grid(error_metric,intersect):
     """
     function to compute 95th % confidence intervals on error metrics
     
     inputs:
         error_metric = one of SVE change metrics (SVE_IF_pct, SVE_IF_abs, SVE_RD_abs)  
                             or SWMM-SVE error metrics (error_IF, error_IF_abs, error_RD_abs)
-                            
+        intersect = dataframe with all intersected initial to future transitions
     outputs:
         intersect_2 = dataframe with 95% confidence intervals and mean values for the specified metric
     """
